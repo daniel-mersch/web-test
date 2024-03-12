@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  fleet:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-12T14:10:53.318406829+01:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.21.2
+    description: A Helm chart for Kubernetes
+    digest: 8bcafa54361c3fd9c0f8e86c33cf7a0e853a2a0e29303815df553bd98853a1e2
+    name: fleet
+    type: application
+    urls:
+    - https://storage.googleapis.com/s4m-charts/charts/fleet-0.1.1.tgz
+    version: 0.1.1
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-11T10:48:31.852416053+01:00"
+    created: "2024-03-12T14:10:53.338610125+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -12,10 +27,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 14.5.2
     description: A Helm chart for Kubernetes
-    digest: b4be04f1aca78589c5b1c40a483e2a6ae55a3bf588c41ce34628581485e8dfc4
+    digest: 6fe29370c7f654b5e6317a34208a0926a89b461a3ad37e0607de56d871f96d6f
     name: mysql
     type: application
     urls:
-    - mysql-0.0.1.tgz
+    - https://storage.googleapis.com/s4m-charts/charts/mysql-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-11T10:48:31.828803968+01:00"
+generated: "2024-03-12T14:10:53.303498124+01:00"
