@@ -24,9 +24,9 @@ version: 0.1.1
 appVersion: "1.16.0"
 
 dependencies:
-  - name: mysql
-    repository: "https://charts.bitnami.com/bitnami"
-    version: 9.21.2
-#  - name: fleet
-#    repository: "https://fleetdm.github.io/fleet/charts"
-#    version: v6.0.2
+#  - name: mysql
+#    repository: "https://charts.bitnami.com/bitnami"
+#    version: 9.21.2
+  - name: fleet
+    repository: "https://fleetdm.github.io/fleet/charts"
+    version: v6.0.2
