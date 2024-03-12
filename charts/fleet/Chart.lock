@@ -1,6 +1,6 @@
 dependencies:
-- name: mysql
-  repository: https://charts.bitnami.com/bitnami
-  version: 9.21.2
-digest: sha256:17fc5afdf9796421ea66fd979ee21558aa69ef5934558aafd858f949ce929af8
-generated: "2024-03-12T13:43:44.574088107+01:00"
+- name: fleet
+  repository: https://fleetdm.github.io/fleet/charts
+  version: v6.0.2
+digest: sha256:47bd62bcf3e9ab0e01cce7ba2f39a5775ac8ac1e61780b0a90e4293f1bf414a1
+generated: "2024-03-12T17:28:41.574829683+01:00"

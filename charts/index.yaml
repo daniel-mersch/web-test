@@ -3,22 +3,36 @@ entries:
   fleet:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-12T14:10:53.318406829+01:00"
+    created: "2024-03-12T17:28:54.274008031+01:00"
+    dependencies:
+    - name: fleet
+      repository: https://fleetdm.github.io/fleet/charts
+      version: v6.0.2
+    description: A Helm chart for Kubernetes
+    digest: ede4f499218ed1b61648d6d196e64af378486201d355143082c257c2aa04b2df
+    name: fleet
+    type: application
+    urls:
+    - fleet-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-12T17:28:54.255366715+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
       version: 9.21.2
     description: A Helm chart for Kubernetes
-    digest: 8bcafa54361c3fd9c0f8e86c33cf7a0e853a2a0e29303815df553bd98853a1e2
+    digest: 44324cdae3cdbd3052447b25863eb62922b745b3c65142e8b28e9610ed33d360
     name: fleet
     type: application
     urls:
-    - https://storage.googleapis.com/s4m-charts/charts/fleet-0.1.1.tgz
+    - fleet-0.1.1.tgz
     version: 0.1.1
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-12T14:10:53.338610125+01:00"
+    created: "2024-03-12T17:28:54.29801362+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -31,6 +45,6 @@ entries:
     name: mysql
     type: application
     urls:
-    - https://storage.googleapis.com/s4m-charts/charts/mysql-0.0.1.tgz
+    - mysql-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-12T14:10:53.303498124+01:00"
+generated: "2024-03-12T17:28:54.239137907+01:00"
