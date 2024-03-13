@@ -3,7 +3,7 @@ entries:
   fleet:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-13T08:29:08.300266651+01:00"
+    created: "2024-03-13T09:38:05.802367107+01:00"
     dependencies:
     - name: fleet
       repository: https://fleetdm.github.io/fleet/charts
@@ -17,7 +17,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-13T08:29:08.283816445+01:00"
+    created: "2024-03-13T09:38:05.786234652+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -32,7 +32,7 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-13T08:29:08.330455217+01:00"
+    created: "2024-03-13T09:38:05.837189213+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -49,7 +49,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-13T08:29:08.314895643+01:00"
+    created: "2024-03-13T09:38:05.816740401+01:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -64,4 +64,19 @@ entries:
     urls:
     - mysql-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-13T08:29:08.275620294+01:00"
+  redis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-03-13T09:38:05.852777383+01:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.16.1
+    description: A Helm chart for Kubernetes
+    digest: 414519e8bf4e7540bb8f47076e09071fc73042f9746c4a6343f27c7bea5e66b6
+    name: redis
+    type: application
+    urls:
+    - redis-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-03-13T09:38:05.776379324+01:00"
